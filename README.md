@@ -1,17 +1,16 @@
 # Tiny HTTP Server
 
-This project implements a simple HTTP server in C++. It is designed to be lightweight and easy to use, making it suitable for educational purposes and small applications.
+This project implements a simple HTTP server in C++. It is designed to be lightweight and easy to use, making it suitable for educational purposes. This was simply an attempt at brushing up on C++. 
+Hopefully I will be adding to this and making it a legitimate portfolio project eventually
 
 ## Project Structure
 
 ```
 tiny-http-server
-├── .vscode
-│   ├── launch.json
-│   └── settings.json
 ├── CMakeLists.txt
 ├── src
 │   └── main.cpp
+|   └── server.cpp
 ├── include
 │   └── server.hpp
 └── README.md
@@ -50,12 +49,5 @@ After building the project, you can run the server with the following command:
 ./tiny-http-server
 ```
 
-The server will start listening for incoming HTTP requests on the specified port (default is 8080). You can access it by navigating to `http://localhost:8080` in your web browser.
+The server will start listening for incoming HTTP requests on the specified port (default is 8080). You can access it by navigating to `http://localhost:8080` in your web browser
 
-## Contributing
-
-Feel free to contribute to this project by submitting issues or pull requests. Your feedback and contributions are welcome!
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
